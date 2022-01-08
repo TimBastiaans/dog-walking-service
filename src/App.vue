@@ -1,28 +1,63 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AppNavigation />
+    <AppHeader />
+    <AppIntro />
+    <AppCards />
+    <AppServices />
+    <AppTeamOfEmployees />
+    <AppAbout />
+    <AppProjects />
+    <AppCallMe />
+    <AppCustomerFeedback />
+    <AppProjects />
+    <AppDetails />
+    <AppDetails2 />
+    <AppContact />
+    <AppFooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppNavigation from "./components/AppNavigation";
+import AppHeader from "./components/AppHeader";
+import AppIntro from "./components/AppIntro";
+import AppCards from "./components/AppCards";
+import AppServices from "./components/AppServices";
+import AppTeamOfEmployees from "./components/AppTeamOfEmployees";
+import AppAbout from "./components/AppAbout";
+import AppContact from "@/components/AppContact";
+import AppFooter from "./components/AppFooter";
+import AppCallMe from "./components/AppCallMe";
+import AppCustomerFeedback from "./components/AppCustomerFeedback";
+import AppProjects from "./components/AppProjects";
+import AppDetails from "./components/AppDetails";
+import AppDetails2 from "./components/AppDetails2";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    AppNavigation,
+    AppHeader,
+    AppIntro,
+    AppCards,
+    AppServices,
+    AppTeamOfEmployees,
+    AppAbout,
+    AppCallMe,
+    AppCustomerFeedback,
+    AppProjects,
+    AppDetails,
+    AppDetails2,
+    AppContact,
+    AppFooter
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
 }
+
 </style>
