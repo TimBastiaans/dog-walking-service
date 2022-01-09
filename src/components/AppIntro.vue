@@ -14,7 +14,7 @@
         </div> <!-- end of col -->
         <div class="col-lg-7">
           <div class="image-container">
-            <img class="img-fluid" src="images/intro-office.jpg" alt="alternative">
+            <img class="img-fluid" :src=selfPortrait alt="alternative">
           </div> <!-- end of image-container -->
         </div> <!-- end of col -->
       </div> <!-- end of row -->
@@ -24,8 +24,14 @@
 </template>
 
 <script>
+import {images} from "@/website";
 export default {
-  name: "AppIntro"
+  name: "AppIntro",
+  data(){
+    return{
+      selfPortrait: images.jeannette
+    }
+  }
 }
 </script>
 

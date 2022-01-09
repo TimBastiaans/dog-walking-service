@@ -5,8 +5,14 @@ const header = {
     test2: "Dit is geen test meer"
 };
 
+const dogs = {
+    title: "HONDEN!",
+    text: "Een Aantal Wandelaars"
+}
+
 const images = {
     logo: require("./assets/logo-Marley.png"),
+    jeannette: require("./assets/Jeannette.jpg"),
     aLotOfDogs: require("./assets/AlotOfDogs.jpg"),
     marley: require("./assets/Marley.jpg"),
     koekieTijd: require("./assets/Dogs/Koekietijd.jpg"),
@@ -17,7 +23,7 @@ const images = {
 const dogImages = {
     axel: require("./assets/Dogs/Axel.jpg"),
     balder: require("./assets/Dogs/Balder.jpg"),
-    balou: require("./assets/Dogs/Balou.jpg"),
+    matie: require("./assets/Dogs/Matie.jpg"),
     boef: require("./assets/Dogs/Boef1.jpg"),
     finny: require("./assets/Dogs/Finny.jpg"),
     george: require("./assets/Dogs/George.jpg"),
@@ -26,11 +32,15 @@ const dogImages = {
     jochem: require("./assets/Dogs/Jochem.jpg"),
     joep: require("./assets/Dogs/Joep.jpg"),
     pleun: require("./assets/Dogs/Pleun.jpg"),
-    sam: require("./assets/Dogs/Sam.jpg")
+    sam: require("./assets/Dogs/Sam.jpg"),
+    KeetEnTasman: require("./assets/Dogs/keetEnTasman.jpg"),
+    roos: require("./assets/Dogs/roos.jpg"),
+    silke: require("./assets/Dogs/Silke.jpg")
 }
 
 export {
     header,
     images,
+    dogs,
     dogImages
 };

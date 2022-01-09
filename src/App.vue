@@ -3,18 +3,18 @@
     <AppNavigation />
     <AppHeader />
     <AppIntro />
-    <AppCards />
+    <AppProjects />
     <AppServices />
-    <AppTeamOfEmployees />
-    <AppAbout />
-    <AppProjects />
     <AppCallMe />
-    <AppCustomerFeedback />
-    <AppProjects />
     <AppDetails />
     <AppDetails2 />
+    <AppCallMe />
     <AppContact />
     <AppFooter />
+    <AppTeamOfEmployees />
+    <AppCustomerFeedback />
+    <AppAbout />
+    <AppCards />
   </div>
 </template>
 
@@ -40,24 +40,21 @@ export default {
     AppNavigation,
     AppHeader,
     AppIntro,
-    AppCards,
-    AppServices,
-    AppTeamOfEmployees,
-    AppAbout,
-    AppCallMe,
-    AppCustomerFeedback,
     AppProjects,
+    AppServices,
+    AppCallMe,
     AppDetails,
     AppDetails2,
     AppContact,
-    AppFooter
+    AppFooter,
+    AppCustomerFeedback,
+    AppAbout,
+    AppCards,
+    AppTeamOfEmployees,
   }
 }
 </script>
 
 <style>
-#app {
-
-}
-
+#app {}
 </style>

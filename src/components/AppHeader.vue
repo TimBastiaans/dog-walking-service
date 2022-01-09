@@ -9,7 +9,6 @@
               <h1>BUSINESS <span id="js-rotating">TEMPLATE, SERVICES, SOLUTIONS</span></h1>
               <p class="p-heading p-large">Aria is a top consultancy company specializing in business growth using online marketing and conversion optimization tactics</p>
               <a class="btn-solid-lg page-scroll" href="#intro">DISCOVER</a>
-              <a> {{ message }}</a>
             </div>
           </div> <!-- end of col -->
         </div> <!-- end of row -->

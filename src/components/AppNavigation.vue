@@ -4,7 +4,7 @@
     <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Aria</a> -->
 
     <!-- Image Logo -->
-    <a class="navbar-brand logo-image" href="index.html"><img :src=logo alt="alternative"></a>
+    <a class="navbar-brand logo-image" v-if="!IsMobile()" href="index.html"><img :src=logo alt="alternative"></a>
 
     <!-- Mobile Menu Toggle Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,23 +77,17 @@ export default {
   },
   created() {
     console.log("")
-  }
-  // methods: {
-  //     IsMobile(){
-  //       return window.innerWidth <= 760;
-  //     }
-  // },
-  // computed(){
-  //   return{
-  //     IsMobile(){
-  //       return this.checkWidth();
-  //     },
-  //
-  //   }
-  // }
+  },
+  methods: {
+      IsMobile(){
+        return window.innerWidth <= 760;
+      }
+  },
 }
 </script>
 
 <style scoped>
-
+.navbar-custom .navbar-brand.logo-image img{
+  height: auto;
+}
 </style>
