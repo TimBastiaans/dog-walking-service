@@ -5,6 +5,26 @@ const header = {
     test2: "Dit is geen test meer"
 };
 
+const prices = {
+    entryOption: "Intakegesprek gratis",
+    option1: "3, 4 of 5 keer per week",
+    option2: "1 of 2 keer per week ",
+    option3: "individuele wandeling  1 uur",
+    option4: "Overig",
+    price1: 12.50,
+    price2: 14.00,
+    price3: 16.00,
+    discountMessage: "2e hond op hetzelfde adres 20% korting",
+}
+
+
+const socials = {
+    cellphone: "06 83 215 677",
+    email: "hondenuitlaatservice.marley@gmail.com",
+    facebook: "https://www.facebook.com/Hondenuitlaatservice-Marley-1794332163929955/",
+    address: "31 Spoorstraat 7311 PG Apeldoorn, Gelderland",
+}
+
 const dogs = {
     title: "HONDEN!",
     text: "Een Aantal Wandelaars"
@@ -40,6 +60,8 @@ const dogImages = {
 
 export {
     header,
+    socials,
+    prices,
     images,
     dogs,
     dogImages
