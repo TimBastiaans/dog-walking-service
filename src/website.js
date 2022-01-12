@@ -6,14 +6,16 @@ const header = {
 };
 
 const prices = {
-    entryOption: "Intakegesprek gratis",
+    title: "Prijzen zijn per hond, per wandeling en incl. BTW",
+    entryOption: "Intakegesprek met groepswandeling",
+    priceDiscountMessage: "2e hond op hetzelfde adres 20% korting",
     option1: "3, 4 of 5 keer per week",
     option2: "1 of 2 keer per week ",
     option3: "individuele wandeling  1 uur",
     option4: "Overig",
-    price1: 12.50,
-    price2: 14.00,
-    price3: 16.00,
+    price1: "12,50 €",
+    price2: "14,00 €",
+    price3: "16,00 €",
     discountMessage: "2e hond op hetzelfde adres 20% korting",
 }
 
