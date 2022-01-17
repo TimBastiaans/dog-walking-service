@@ -3,6 +3,7 @@
     <AppNavigation />
     <AppHeader />
     <AppIntro />
+    <PhotoRow />
     <AppProjects />
     <AppServices />
     <AppCallMe />
@@ -33,6 +34,7 @@ import AppCustomerFeedback from "./components/AppCustomerFeedback";
 import AppProjects from "./components/AppProjects";
 import AppDetails from "./components/AppDetails";
 import AppDetails2 from "./components/AppDetails2";
+import PhotoRow from "@/components/PhotoRow";
 
 export default {
   name: 'App',
@@ -51,6 +53,7 @@ export default {
     AppAbout,
     AppCards,
     AppTeamOfEmployees,
+    PhotoRow,
   }
 }
 </script>
