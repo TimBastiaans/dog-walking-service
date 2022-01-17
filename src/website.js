@@ -1,8 +1,9 @@
 /* Change this file to get your personal website */
 
 const header = {
-    test: "Dit is een test",
-    test2: "Dit is geen test meer"
+    title: "Hondenuitlaat service Marley",
+    subTitle: "HONDENUITLAATGEBIED ROND APPELDOORN",
+    text: "Omdat jouw hond het allerbeste verdient",
 };
 
 const prices = {
@@ -60,11 +61,16 @@ const dogImages = {
     silke: require("./assets/Dogs/Silke.jpg")
 }
 
+const videos = {
+    intro: require("./assets/Video/dogs-walking.mp4")
+}
+
 export {
     header,
     socials,
     prices,
     images,
     dogs,
-    dogImages
+    dogImages,
+    videos
 };
