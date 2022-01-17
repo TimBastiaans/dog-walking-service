@@ -6,52 +6,45 @@
         <div class="col-lg-6">
           <div class="text-container">
             <div class="section-title">CONTACT</div>
-            <h2>Get In Touch Using The Form</h2>
-            <p>You can stop by our office for a cup of coffee and just use the contact form below for any questions and inquiries</p>
+            <h2>{{ contact.title }}</h2>
+            <p>{{ contact.subTitle }}</p>
             <ul class="list-unstyled li-space-lg">
-              <li class="address"><i class="fas fa-map-marker-alt"></i>22nd Innovative Street, San Francisco, CA 94043, US</li>
-              <li><i class="fas fa-phone"></i><a href="tel:003024630820">+81 720 22 126</a></li>
-              <li><i class="fas fa-phone"></i><a href="tel:003024630820">+81 720 22 128</a></li>
-              <li><i class="fas fa-envelope"></i><a href="mailto:office@aria.com">office@aria.com</a></li>
+              <li class="address"><i class="fas fa-map-marker-alt"></i>{{ socials.address }}</li>
+              <li><i class="fas fa-phone"></i><a :href=hrefCellphone>{{ socials.cellphone }}</a></li>
+              <li><i class="fas fa-envelope"></i><a :href=hrefEmail>{{ socials.email }}</a></li>
             </ul>
-            <h3>Follow Aria On Social Media</h3>
-
+            <div class="align-content-center">
             <span class="fa-stack">
-                            <a href="#your-link">
+                            <a :href=socials.facebook>
                                 <span class="hexagon"></span>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
                             </a>
                         </span>
             <span class="fa-stack">
-                            <a href="#your-link">
+                            <a :href=socials.whatsapp>
                                 <span class="hexagon"></span>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
+                                <i class="fab fa-whatsapp fa-stack-1x"></i>
                             </a>
                         </span>
             <span class="fa-stack">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-pinterest fa-stack-1x"></i>
-                            </a>
-                        </span>
-            <span class="fa-stack">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-            <span class="fa-stack">
-                            <a href="#your-link">
+                            <a :href=socials.linkedIn>
                                 <span class="hexagon"></span>
                                 <i class="fab fa-linkedin-in fa-stack-1x"></i>
                             </a>
                         </span>
-            <span class="fa-stack">
-                            <a href="#your-link">
-                                <span class="hexagon"></span>
-                                <i class="fab fa-behance fa-stack-1x"></i>
-                            </a>
-                        </span>
+            </div>
+<!--            <span class="fa-stack">-->
+<!--                            <a href="#your-link">-->
+<!--                                <span class="hexagon"></span>-->
+<!--                                <i class="fab fa-pinterest fa-stack-1x"></i>-->
+<!--                            </a>-->
+<!--                        </span>-->
+<!--            <span class="fa-stack">-->
+<!--                            <a href="#your-link">-->
+<!--                                <span class="hexagon"></span>-->
+<!--                                <i class="fab fa-instagram fa-stack-1x"></i>-->
+<!--                            </a>-->
+<!--                        </span>-->
           </div> <!-- end of text-container -->
         </div> <!-- end of col -->
         <div class="col-lg-6">
@@ -60,7 +53,7 @@
           <form id="contactForm" data-toggle="validator" data-focus="false">
             <div class="form-group">
               <input type="text" class="form-control-input" id="cname" required>
-              <label class="label-control" for="cname">Name</label>
+              <label class="label-control" for="cname">Naam</label>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group">
@@ -70,15 +63,15 @@
             </div>
             <div class="form-group">
               <textarea class="form-control-textarea" id="cmessage" required></textarea>
-              <label class="label-control" for="cmessage">Your message</label>
+              <label class="label-control" for="cmessage">Jouw bericht</label>
               <div class="help-block with-errors"></div>
             </div>
-            <div class="form-group checkbox">
-              <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a>
-              <div class="help-block with-errors"></div>
-            </div>
+<!--            <div class="form-group checkbox">-->
+<!--              <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I agree with Aria's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a>-->
+<!--              <div class="help-block with-errors"></div>-->
+<!--            </div>-->
             <div class="form-group">
-              <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+              <button type="submit" class="form-control-submit-button">Verstuur Bericht</button>
             </div>
             <div class="form-message">
               <div id="cmsgSubmit" class="h3 text-center hidden"></div>
@@ -94,8 +87,24 @@
 </template>
 
 <script>
+import {socials, contact} from "@/website";
+
 export default {
-  name: "AppContact"
+  name: "AppContact",
+  data(){
+    return{
+      socials: socials,
+      contact: contact,
+      whatsapp: socials.whatsapp,
+      hrefCellphone: "tel:" + socials.cellphone,
+      hrefEmail: "mailto:" + socials.email,
+    }
+  },
+  computed:{
+    noSpace(cellphone){
+      return cellphone.replace(/\s/g, '');
+    }
+  }
 }
 </script>
 

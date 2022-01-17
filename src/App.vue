@@ -6,7 +6,6 @@
     <PhotoRow />
     <AppProjects />
     <AppServices />
-    <AppCallMe />
     <AppDetails />
     <AppDetails2 />
     <AppCallMe />

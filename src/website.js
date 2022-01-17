@@ -6,6 +6,11 @@ const header = {
     text: "Omdat jouw hond het allerbeste verdient",
 };
 
+const contact = {
+    title: "Alle manieren om met mij in contact te komen",
+    subTitle: "Tot 20.00 uur ben ik altijd telefonisch of op whatsapp bereikbaar maar mailen is altijd mogelijk.",
+}
+
 const prices = {
     title: "Prijzen zijn per hond, per wandeling en incl. BTW",
     entryOption: "Intakegesprek met groepswandeling",
@@ -23,8 +28,10 @@ const prices = {
 
 const socials = {
     cellphone: "06 83 215 677",
+    whatsapp: "https://wa.me/0683215677",
     email: "hondenuitlaatservice.marley@gmail.com",
     facebook: "https://www.facebook.com/Hondenuitlaatservice-Marley-1794332163929955/",
+    linkedIn: "https://www.linkedin.com/in/jeannette-bastiaans-2b896b13/",
     address: "31 Spoorstraat 7311 PG Apeldoorn, Gelderland",
 }
 
@@ -68,6 +75,7 @@ const videos = {
 export {
     header,
     socials,
+    contact,
     prices,
     images,
     dogs,

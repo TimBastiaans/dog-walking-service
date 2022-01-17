@@ -923,7 +923,7 @@ input[type='checkbox'] {
 }
 
 .cards-2 .card-body {
-	padding: 2.25rem 2rem 2.125rem 2rem;
+	padding: 1.5rem;
 	border: 1px solid #ebe8e8;
 	border-bottom-left-radius: 0.375rem;
 	border-bottom-right-radius: 0.375rem;
@@ -1656,7 +1656,6 @@ input[type='checkbox'] {
 }
 
 .form-2 .list-unstyled {
-	margin-bottom: 2.25rem;
 	font-size: 1rem;
 	line-height: 1.625rem;
 }
