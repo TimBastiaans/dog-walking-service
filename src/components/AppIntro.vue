@@ -1,6 +1,7 @@
 <template>
   <!-- Intro -->
   <div id="intro" class="basic-1">
+
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
@@ -24,11 +25,14 @@
 </template>
 
 <script>
-import {images} from "@/website";
+import {images,videos} from "@/website";
 export default {
   name: "AppIntro",
+  components:{
+  },
   data(){
     return{
+      videoURL: videos.intro,
       selfPortrait: images.jeannette
     }
   }
