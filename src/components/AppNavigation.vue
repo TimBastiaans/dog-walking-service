@@ -35,9 +35,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">TERMS CONDITIONS</span></a>
+            <a class="dropdown-item" :href=documents.terms ><span class="item-text">ALGEMENE VOORWAARDEN</span></a>
             <div class="dropdown-items-divide-hr"></div>
-            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">PRIVACY POLICY</span></a>
+            <a class="dropdown-item" :href=documents.registration ><span class="item-text">INSCHRIJFFORMULIER</span></a>
+            <div class="dropdown-items-divide-hr"></div>
+            <a class="dropdown-item" :href=documents.keyContract ><span class="item-text">SLEUTELCONTRACT</span></a>
           </div>
         </li>
         <!-- end of dropdown menu -->
@@ -48,15 +50,15 @@
       </ul>
       <span class="nav-item social-icons">
                 <span class="fa-stack">
-                    <a href="#your-link">
+                    <a :href=socials.facebook>
                         <span class="hexagon"></span>
                         <i class="fab fa-facebook-f fa-stack-1x"></i>
                     </a>
                 </span>
                 <span class="fa-stack">
-                    <a href="#your-link">
+                    <a :href=socials.linkedIn>
                         <span class="hexagon"></span>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
+                        <i class="fab fa-linkedin fa-stack-1x"></i>
                     </a>
                 </span>
             </span>
@@ -66,17 +68,19 @@
 </template>
 
 <script>
-import {images} from "@/website";
+import {images, socials, documents} from "@/website";
 
 export default {
   name: "AppNavigation",
   data(){
     return{
-      logo: images.logo
+      socials: socials,
+      logo: images.logo,
+      documents: documents,
+      pdflink: "src/assets/Documents/AlgemeneVoorwaarden.pdf"
     }
   },
   created() {
-    console.log("")
   },
   methods: {
       IsMobile(){

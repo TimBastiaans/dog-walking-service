@@ -4,6 +4,8 @@ const header = {
     title: "Hondenuitlaat service Marley",
     subTitle: "HONDENUITLAATGEBIED ROND APPELDOORN",
     text: "Omdat jouw hond het allerbeste verdient",
+    info: "Marley is de hondenuitlaatservice voor u als u zoekt naar professionaliteit, kwaliteit en betrouwbaarheid." +
+        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond."
 };
 
 const contact = {
@@ -23,6 +25,21 @@ const prices = {
     price2: "14,00 €",
     price3: "16,00 €",
     discountMessage: "2e hond op hetzelfde adres 20% korting",
+}
+
+const details2 = {
+    squareBoxTexts: [
+        "Op basis van de karaktereigenschappen van je hond kijken we bij welke groep hij of zij het beste past",
+        "We komen je hond op de afgesproken dagen ophalen met mijn  bus",
+        "Voordat we met je hond gaan wandelen, komen we eerst langs om jou en je hond te leren kennen.",
+        "We houden de groepen klein en bewaren de rust door duidelijk en consequent te zijn",
+        "is een gepassioneerde hondenuitlaatservice",
+        "haalt honden op in een bus die is ingericht met voor iedere hond een eigen bench",
+        "brengt na elke wandeling verslag en/of foto's uit van de avonturen van uw hond."
+    ],
+    hikeText: "een wandeling van zeker een uur in hondenbos Julianatoren,  Het Leesten, hondenbos in Emst," +
+        " hondenbos de Sprengen, of op Bussloo vindt u uw hond aan het eind van de dag voldaan weer thuis.",
+
 }
 
 
@@ -72,13 +89,21 @@ const videos = {
     intro: require("./assets/Video/dogs-walking.mp4")
 }
 
+const documents = {
+     terms: "https://drive.google.com/file/d/16I9kvO9fWQCehUfQ5gupMK5RIwb7Bpz1/view?usp=sharing",
+     registration: "https://docs.google.com/document/d/1DInB4C5jWmbkQV6IdWQQEM1muFihiNy2/edit?usp=sharing&ouid=108784276001055555493&rtpof=true&sd=true",
+     keyContract: "https://drive.google.com/file/d/16I9kvO9fWQCehUfQ5gupMK5RIwb7Bpz1/view?usp=sharing",
+}
+
 export {
     header,
     socials,
     contact,
+    details2,
     prices,
     images,
     dogs,
     dogImages,
-    videos
+    videos,
+    documents
 };
