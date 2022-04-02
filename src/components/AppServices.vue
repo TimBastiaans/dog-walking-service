@@ -14,7 +14,7 @@
           <!-- Card -->
           <div class="card">
             <div class="card-image">
-              <img class="img-fluid" src="images/services-1.jpg" alt="alternative">
+              <img class="img-fluid" :src=pricePicture1 alt="alternative">
             </div>
             <div class="card-body">
               <h5 class="card-title">{{ entryOption }}</h5>
@@ -29,26 +29,23 @@
           <!-- Card -->
           <div class="card">
             <div class="card-image">
-              <img class="img-fluid" src="images/services-2.jpg" alt="alternative">
+              <img class="img-fluid" :src=pricePicture2 alt="alternative">
             </div>
             <div class="card-body">
               <h3 class="card-title">{{option1}}</h3>
 
               <p class="price"><span>{{priceOption1}}</span></p>
             </div>
-            <div class="button-container">
-              <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
-            </div> <!-- end of button-container -->
           </div>
           <!-- end of card -->
 
           <!-- Card -->
           <div class="card">
             <div class="card-image">
-              <img class="img-fluid" src="images/services-3.jpg" alt="alternative">
+              <img class="img-fluid" :src=pricePicture3 alt="alternative">
             </div>
             <div class="card-body">
-              <h5 class="card-title">{{option2}}</h5>
+              <h3 class="card-title">{{option2}}</h3>
 <!--              <p>You already are a reference point in your industry now you need to learn about acquisitions</p>-->
 <!--              <ul class="list-unstyled li-space-lg">-->
 <!--                <li class="media">-->
@@ -62,47 +59,45 @@
 <!--              </ul>-->
               <p class="price"><span>{{ priceOption2 }}</span></p>
             </div>
-            <div class="button-container">
-              <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
-            </div> <!-- end of button-container -->
           </div>
           <!-- end of card -->
 
           <!-- Card -->
           <div class="card">
             <div class="card-image">
-              <img class="img-fluid" src="images/services-3.jpg" alt="alternative">
+              <img class="img-fluid" :src=pricePicture4 alt="alternative">
             </div>
             <div class="card-body">
-              <h5 class="card-title">{{option3}}</h5>
-              <p>You already are a reference point in your industry now you need to learn about acquisitions</p>
-              <ul class="list-unstyled li-space-lg">
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">Maintaining the leader status</div>
-                </li>
-                <li class="media">
-                  <i class="fas fa-square"></i>
-                  <div class="media-body">Acquisitions the right way</div>
-                </li>
-              </ul>
+              <h3 class="card-title">{{option3}}</h3>
+<!--              <p>You already are a reference point in your industry now you need to learn about acquisitions</p>-->
+<!--              <ul class="list-unstyled li-space-lg">-->
+<!--                <li class="media">-->
+<!--                  <i class="fas fa-square"></i>-->
+<!--                  <div class="media-body">Maintaining the leader status</div>-->
+<!--                </li>-->
+<!--                <li class="media">-->
+<!--                  <i class="fas fa-square"></i>-->
+<!--                  <div class="media-body">Acquisitions the right way</div>-->
+<!--                </li>-->
+<!--              </ul>-->
               <p class="price"><span>{{ priceOption3 }}</span></p>
             </div>
-            <div class="button-container">
-              <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
-            </div> <!-- end of button-container -->
           </div>
           <!-- end of card -->
-
         </div> <!-- end of col -->
       </div> <!-- end of row -->
     </div> <!-- end of container -->
+    <div class="button-container">
+      <a class="btn-solid-reg btn-lg page-scroll" href="#contact">
+      <div id="createBtn">Neem contact op voor intresse</div>
+      </a>
+    </div>
   </div> <!-- end of cards-2 -->
   <!-- end of services -->
 </template>
 
 <script>
-import {prices} from "@/website";
+import {prices, dogImages} from "@/website";
 export default {
   name: "AppServices",
   data (){
@@ -117,7 +112,10 @@ export default {
       priceOption1: prices.price1,
       priceOption2: prices.price2,
       priceOption3: prices.price3,
-
+      pricePicture1: dogImages.service1,
+      pricePicture2: dogImages.service2,
+      pricePicture3: dogImages.service3,
+      pricePicture4: dogImages.service4,
     }
   },
   methods: {
@@ -131,4 +129,18 @@ export default {
 
 <style scoped>
 
+@media (min-width: 1px) and (max-width: 460px){
+  .btn-lg{
+    font-size: small;
+  }
+}
+@media (min-width: 461px){
+  .btn-lg{
+    padding: 2.1875rem 2.875rem 2.1875rem 2.875rem;
+    font-size: larger;
+  }
+}
+ .cards-2 {
+   padding: 1.25rem 1.5rem 1.125rem 1.5rem;
+ }
 </style>

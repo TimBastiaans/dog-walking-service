@@ -17,9 +17,9 @@ const prices = {
     title: "Prijzen zijn per hond, per wandeling en incl. BTW",
     entryOption: "Intakegesprek met groepswandeling",
     priceDiscountMessage: "2e hond op hetzelfde adres 20% korting",
-    option1: "3, 4 of 5 keer per week",
+    option1: "Meerdere keren per week",
     option2: "1 of 2 keer per week ",
-    option3: "individuele wandeling  1 uur",
+    option3: "Individuele wandeling 1 uur",
     option4: "Overig",
     price1: "12,50 €",
     price2: "14,00 €",
@@ -82,7 +82,11 @@ const dogImages = {
     sam: require("./assets/Dogs/Sam.jpg"),
     KeetEnTasman: require("./assets/Dogs/keetEnTasman.jpg"),
     roos: require("./assets/Dogs/roos.jpg"),
-    silke: require("./assets/Dogs/Silke.jpg")
+    silke: require("./assets/Dogs/Silke.jpg"),
+    service1: require("./assets/Dogs/Dog-service1.jpg"),
+    service2: require("./assets/Dogs/Dog-service2.jpg"),
+    service3: require("./assets/Dogs/Dog-service3.jpg"),
+    service4: require("./assets/Dogs/Dog-service4.jpg"),
 }
 
 const videos = {

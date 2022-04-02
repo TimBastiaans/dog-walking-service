@@ -43,7 +43,6 @@
             </div>
           </div>
           <!-- end of card -->
-
         </div> <!-- end of col -->
       </div> <!-- end of row -->
     </div> <!-- end of container -->
