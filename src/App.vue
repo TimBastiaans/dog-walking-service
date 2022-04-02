@@ -7,8 +7,8 @@
     <AppProjects />
     <AppServices />
     <AppDetails />
-    <AppDetails2 />
-    <AppCallMe />
+<!--    <AppDetails2 />-->
+<!--    <AppCallMe />-->
     <AppContact />
     <AppFooter />
     <AppTeamOfEmployees />
@@ -28,11 +28,11 @@ import AppTeamOfEmployees from "./components/AppTeamOfEmployees";
 import AppAbout from "./components/AppAbout";
 import AppContact from "@/components/AppContact";
 import AppFooter from "./components/AppFooter";
-import AppCallMe from "./components/AppCallMe";
+// import AppCallMe from "./components/AppCallMe";
 import AppCustomerFeedback from "./components/AppCustomerFeedback";
 import AppProjects from "./components/AppProjects";
 import AppDetails from "./components/AppDetails";
-import AppDetails2 from "./components/AppDetails2";
+// import AppDetails2 from "./components/AppDetails2";
 import PhotoRow from "@/components/PhotoRow";
 
 export default {
@@ -43,9 +43,9 @@ export default {
     AppIntro,
     AppProjects,
     AppServices,
-    AppCallMe,
+    // AppCallMe,
     AppDetails,
-    AppDetails2,
+    // AppDetails2,
     AppContact,
     AppFooter,
     AppCustomerFeedback,

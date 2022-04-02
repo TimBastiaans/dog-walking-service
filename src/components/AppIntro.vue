@@ -7,10 +7,10 @@
         <div class="col-lg-5">
           <div class="text-container">
             <div class="section-title">INTRO</div>
-            <h2>We Offer Some Of The Best Business Growth Services In Town</h2>
-            <p>Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.</p>
-            <p class="testimonial-text">"Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."</p>
-            <div class="testimonial-author">Louise Donovan - CEO</div>
+            <h2>{{introText.header}}</h2>
+            <p>{{ introText.introText}}</p>
+            <p class="testimonial-text">{{introText.introducement}}</p>
+            <div class="testimonial-author">Jeanette Bastiaans</div>
           </div> <!-- end of text-container -->
         </div> <!-- end of col -->
         <div class="col-lg-7">
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import {images,videos} from "@/website";
+import {images, videos, intro} from "@/website";
 export default {
   name: "AppIntro",
   components:{
@@ -33,7 +33,8 @@ export default {
   data(){
     return{
       videoURL: videos.intro,
-      selfPortrait: images.jeannette
+      selfPortrait: images.jeannette,
+      introText: intro,
     }
   }
 }

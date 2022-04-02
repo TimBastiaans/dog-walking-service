@@ -8,6 +8,13 @@ const header = {
         " Voor iedere hond in Apeldoorn en directe omgeving bieden wij een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond."
 };
 
+const intro = {
+    header: "Wie laat alle honden uit?",
+    introText: "Eindelijk; na 30 jaar in het bedrijfsleven gewerkt te hebben ben ik mijn droom en passie achterna gegaan en een uitlaatservice gestart.",
+    introducement: "Ik ben Jeannette en dit zijn, naast mijn partner en zijn zoon, de viervoetige dierbare vriendjes waar ik ook mee samenleef.",
+
+}
+
 const contact = {
     title: "Alle manieren om met mij in contact te komen",
     subTitle: "Tot 20.00 uur ben ik altijd telefonisch of op whatsapp bereikbaar maar mailen is altijd mogelijk.",
@@ -30,7 +37,7 @@ const prices = {
 const details2 = {
     squareBoxTexts: [
         "Op basis van de karaktereigenschappen van je hond kijken we bij welke groep hij of zij het beste past",
-        "We komen je hond op de afgesproken dagen ophalen met mijn  bus",
+        "We komen je hond op de afgesproken dagen ophalen met mijn bus",
         "Voordat we met je hond gaan wandelen, komen we eerst langs om jou en je hond te leren kennen.",
         "We houden de groepen klein en bewaren de rust door duidelijk en consequent te zijn",
         "is een gepassioneerde hondenuitlaatservice",
@@ -59,13 +66,20 @@ const dogs = {
 
 const images = {
     logo: require("./assets/logo-Marley.png"),
-    jeannette: require("./assets/Jeannette.jpg"),
-    aLotOfDogs: require("./assets/AlotOfDogs.jpg"),
+    jeannette: require("../public/images/details-1-background.jpg"),
+    aLotOfDogs: require("../public/images/details-1-background.jpg"),
     marley: require("./assets/Marley.jpg"),
     koekieTijd: require("./assets/Dogs/Koekietijd.jpg"),
     sneeuwPret: require("./assets/Dogs/Sneeuwpret.jpg"),
-    spelen: require("./assets/Dogs/Spelen.jpg"),
+    spelen: require("../public/images/details-1-background.jpg"),
 }
+const imagesRow = {
+    daan: require("./assets/Dogs/Daan.jpg"),
+    senna: require("./assets/Dogs/Senna.jpg"),
+    gijs: require("./assets/Dogs/Gijs.jpg"),
+    marley: require("./assets/Marley.jpg"),
+}
+
 
 const dogImages = {
     axel: require("./assets/Dogs/Axel.jpg"),
@@ -101,11 +115,13 @@ const documents = {
 
 export {
     header,
+    intro,
     socials,
     contact,
     details2,
     prices,
     images,
+    imagesRow,
     dogs,
     dogImages,
     videos,

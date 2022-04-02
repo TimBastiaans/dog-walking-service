@@ -33,36 +33,24 @@
                             </a>
                         </span>
             </div>
-<!--            <span class="fa-stack">-->
-<!--                            <a href="#your-link">-->
-<!--                                <span class="hexagon"></span>-->
-<!--                                <i class="fab fa-pinterest fa-stack-1x"></i>-->
-<!--                            </a>-->
-<!--                        </span>-->
-<!--            <span class="fa-stack">-->
-<!--                            <a href="#your-link">-->
-<!--                                <span class="hexagon"></span>-->
-<!--                                <i class="fab fa-instagram fa-stack-1x"></i>-->
-<!--                            </a>-->
-<!--                        </span>-->
           </div> <!-- end of text-container -->
         </div> <!-- end of col -->
         <div class="col-lg-6">
 
           <!-- Contact Form -->
-          <form id="contactForm" data-toggle="validator" data-focus="false">
+          <form ref="form" id="contactForm" data-toggle="validator" data-focus="false" @submit.prevent="sendEmail">
             <div class="form-group">
-              <input type="text" class="form-control-input" id="cname" required>
+              <input type="text" class="form-control-input" name="user_name" id="cname" required>
               <label class="label-control" for="cname">Naam</label>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control-input" id="cemail" required>
+              <input type="email" class="form-control-input" name="user_email" id="cemail" required>
               <label class="label-control" for="cemail">Email</label>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control-textarea" id="cmessage" required></textarea>
+              <textarea class="form-control-textarea" name="message" id="cmessage" required></textarea>
               <label class="label-control" for="cmessage">Jouw bericht</label>
               <div class="help-block with-errors"></div>
             </div>
@@ -78,7 +66,6 @@
             </div>
           </form>
           <!-- end of contact form -->
-
         </div> <!-- end of col -->
       </div> <!-- end of row -->
     </div> <!-- end of container -->
@@ -88,6 +75,7 @@
 
 <script>
 import {socials, contact} from "@/website";
+import emailjs from "@emailjs/browser"
 
 export default {
   name: "AppContact",
@@ -98,6 +86,16 @@ export default {
       whatsapp: socials.whatsapp,
       hrefCellphone: "tel:" + socials.cellphone,
       hrefEmail: "mailto:" + socials.email,
+    }
+  },
+  methods: {
+    sendEmail() {
+      emailjs.sendForm('service_uxdiyzm', 'template_j0vaa6w', this.$refs.form, 'xGzx3NW_fcDTiN_Qm')
+          .then((result) => {
+            console.log('SUCCESS!', result.text);
+          }, (error) => {
+            console.log('FAILED...', error.text);
+          });
     }
   },
   computed:{

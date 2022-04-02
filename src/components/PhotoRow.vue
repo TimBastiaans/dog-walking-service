@@ -6,12 +6,12 @@
 
 <script>
 
-import {images} from "@/website";
+import {imagesRow} from "@/website";
 export default {
   name: "PhotoBoxLine",
   data(){
     return{
-      images: images
+      images: imagesRow
     }
   }
 }
@@ -20,9 +20,9 @@ export default {
 
 <style scoped>
 .photo-box{
-  width: 120px;
-  height: 120px;
-  object-fit: fill;
+  width: 180px;
+  height: 180px;
+  object-fit: scale-down;
   margin-right: 10px;
 }
 .photo-row{
