@@ -35,7 +35,7 @@
               <a class="popup-with-move-anim"><div class="element-item-overlay"><span>Silke</span></div><img :src=dogs.silke alt="alternative"></a>
             </div>
             <div class="element-item design marketing seo">
-              <a class="popup-with-move-anim"><div class="element-item-overlay"><span>Keet & Tasman</span></div><img :src=dogs.KeetEnTasman alt="alternative"></a>
+              <a class="popup-with-move-anim"><div class="element-item-overlay"><span>Huoli</span></div><img :src=dogs.Huoli alt="alternative"></a>
             </div>
             <div class="element-item design marketing">
               <a class="popup-with-move-anim"><div class="element-item-overlay"><span>George</span></div><img :src=dogs.george alt="alternative"></a>
@@ -69,5 +69,10 @@ export default {
 </script>
 
 <style scoped>
-
+@media (max-width: 761px) {
+  .filter {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
 </style>

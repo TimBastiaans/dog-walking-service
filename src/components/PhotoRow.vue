@@ -1,5 +1,5 @@
 <template>
-  <div class="photo-row text-center">
+  <div class="photo-row text-center show-on-desktop">
     <img v-for="dogImage in images" :src=dogImage class="photo-box" :key="dogImage" :alt="images.marley">
   </div>
 </template>
@@ -27,5 +27,8 @@ export default {
 }
 .photo-row{
   padding: 1em;
+}
+@media (max-width: 760px) {
+  .show-on-desktop { display: none !important; }
 }
 </style>

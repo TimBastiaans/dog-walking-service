@@ -129,14 +129,17 @@ export default {
 
 <style scoped>
 
-@media (min-width: 1px) and (max-width: 460px){
+@media (max-width: 761px){
   .btn-lg{
     font-size: small;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
+  }
+  .card {
+    max-height: 400px;
   }
 }
-@media (min-width: 461px){
-  .btn-lg{
+@media (min-width: 761px){
+  .btn-lg {
     padding: 2.1875rem 2.875rem 2.1875rem 2.875rem;
     margin-bottom: 1.5rem;
     font-size: larger;

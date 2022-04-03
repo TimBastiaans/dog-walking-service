@@ -35,11 +35,11 @@
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" :href=documents.terms ><span class="item-text">ALGEMENE VOORWAARDEN</span></a>
+            <a class="dropdown-item" :href=documents.terms target="_blank"><span class="item-text">ALGEMENE VOORWAARDEN</span></a>
             <div class="dropdown-items-divide-hr"></div>
-            <a class="dropdown-item" :href=documents.registration ><span class="item-text">INSCHRIJFFORMULIER</span></a>
+            <a class="dropdown-item" :href=documents.registration target="_blank"><span class="item-text">INSCHRIJFFORMULIER</span></a>
             <div class="dropdown-items-divide-hr"></div>
-            <a class="dropdown-item" :href=documents.keyContract ><span class="item-text">SLEUTELCONTRACT</span></a>
+            <a class="dropdown-item" :href=documents.keyContract target="_blank"><span class="item-text">SLEUTELCONTRACT</span></a>
           </div>
         </li>
         <!-- end of dropdown menu -->

@@ -74,8 +74,8 @@
 </template>
 
 <script>
-import {socials, contact} from "@/website";
 import emailjs from "@emailjs/browser"
+import {socials, contact, API} from "@/website";
 
 export default {
   name: "AppContact",
@@ -90,7 +90,7 @@ export default {
   },
   methods: {
     sendEmail() {
-      emailjs.sendForm('service_uxdiyzm', 'template_j0vaa6w', this.$refs.form, 'xGzx3NW_fcDTiN_Qm')
+      emailjs.sendForm(API.serviceId, API.templateId, this.$refs.form, API.userId)
           .then((result) => {
             console.log('SUCCESS!', result.text);
           }, (error) => {
@@ -107,5 +107,10 @@ export default {
 </script>
 
 <style scoped>
-
+@media (max-width: 761px){
+  .form-2 {
+    padding-top: 3rem;
+    padding-bottom : 2rem;
+  }
+}
 </style>

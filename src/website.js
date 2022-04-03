@@ -46,7 +46,8 @@ const details2 = {
     ],
     hikeText: "een wandeling van zeker een uur in hondenbos Julianatoren,  Het Leesten, hondenbos in Emst," +
         " hondenbos de Sprengen, of op Bussloo vindt u uw hond aan het eind van de dag voldaan weer thuis.",
-
+    footerText: "Marley is de hondenuitlaatservice voor u als u zoekt naar professionaliteit, kwaliteit en betrouwbaarheid." +
+        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond."
 }
 
 
@@ -66,7 +67,7 @@ const dogs = {
 
 const images = {
     logo: require("./assets/logo-Marley.png"),
-    jeannette: require("../public/images/details-1-background.jpg"),
+    jeannette: require("./assets/Dogs/jeanette.jpg"),
     aLotOfDogs: require("../public/images/details-1-background.jpg"),
     marley: require("./assets/Marley.jpg"),
     koekieTijd: require("./assets/Dogs/Koekietijd.jpg"),
@@ -88,6 +89,7 @@ const dogImages = {
     boef: require("./assets/Dogs/Boef1.jpg"),
     finny: require("./assets/Dogs/Finny.jpg"),
     george: require("./assets/Dogs/George.jpg"),
+    Huoli: require("./assets/Dogs/Huoli.jpg"),
     indy: require("./assets/Dogs/Indy.jpg"),
     indyTak: require("./assets/Dogs/indy-tak.jpg"),
     jochem: require("./assets/Dogs/Jochem.jpg"),
@@ -113,6 +115,12 @@ const documents = {
      keyContract: "https://drive.google.com/file/d/16I9kvO9fWQCehUfQ5gupMK5RIwb7Bpz1/view?usp=sharing",
 }
 
+const API = {
+    serviceId: "service_uxdiyzm",
+    templateId: "template_j0vaa6w",
+    userId: "xGzx3NW_fcDTiN_Qm"
+}
+
 export {
     header,
     intro,
@@ -125,5 +133,6 @@ export {
     dogs,
     dogImages,
     videos,
-    documents
+    documents,
+    API
 };

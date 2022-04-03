@@ -102,7 +102,10 @@ export default {
   .accordion .accordion-container{
     max-width: 36rem;
   }
-  .accordion{
+}
+@media (max-width: 761px){
+  .accordion .accordion-container{
+    padding-top: 2rem;
   }
 }
 .big-one{
