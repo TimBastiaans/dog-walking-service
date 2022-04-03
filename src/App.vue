@@ -11,10 +11,10 @@
 <!--    <AppCallMe />-->
     <AppContact />
     <AppFooter />
-    <AppTeamOfEmployees />
-    <AppCustomerFeedback />
-    <AppAbout />
-    <AppCards />
+<!--    <AppTeamOfEmployees />-->
+<!--    <AppCustomerFeedback />-->
+<!--    <AppAbout />-->
+<!--    <AppCards />-->
   </div>
 </template>
 
@@ -22,18 +22,17 @@
 import AppNavigation from "./components/AppNavigation";
 import AppHeader from "./components/AppHeader";
 import AppIntro from "./components/AppIntro";
-import AppCards from "./components/AppCards";
+// import AppCards from "./components/AppCards";
 import AppServices from "./components/AppServices";
-import AppTeamOfEmployees from "./components/AppTeamOfEmployees";
-import AppAbout from "./components/AppAbout";
+// import AppTeamOfEmployees from "./components/AppTeamOfEmployees";
+// import AppAbout from "./components/AppAbout";
 import AppContact from "@/components/AppContact";
 import AppFooter from "./components/AppFooter";
 // import AppCallMe from "./components/AppCallMe";
-import AppCustomerFeedback from "./components/AppCustomerFeedback";
+// import AppCustomerFeedback from "./components/AppCustomerFeedback";
 import AppProjects from "./components/AppProjects";
 import AppDetails from "./components/AppDetails";
 // import AppDetails2 from "./components/AppDetails2";
-import PhotoRow from "@/components/PhotoRow";
 
 export default {
   name: 'App',
@@ -48,11 +47,10 @@ export default {
     // AppDetails2,
     AppContact,
     AppFooter,
-    AppCustomerFeedback,
-    AppAbout,
-    AppCards,
-    AppTeamOfEmployees,
-    PhotoRow,
+    // AppCustomerFeedback,
+    // AppAbout,
+    // AppCards,
+    // AppTeamOfEmployees,
   }
 }
 </script>
