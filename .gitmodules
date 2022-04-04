@@ -1,0 +1,3 @@
+[submodule "path/to/submodule"]
+   path = public
+   url = git://url-of-submodule-repo/
