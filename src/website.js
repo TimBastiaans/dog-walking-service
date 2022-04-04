@@ -68,11 +68,11 @@ const dogs = {
 const images = {
     logo: require("./assets/logo-Marley.png"),
     jeannette: require("./assets/Dogs/jeanette.jpg"),
-    aLotOfDogs: require("../public/images/details-1-background.jpg"),
+    // aLotOfDogs: require("../public/images/details-1-background.jpg"),
     marley: require("./assets/Marley.jpg"),
     koekieTijd: require("./assets/Dogs/Koekietijd.jpg"),
     sneeuwPret: require("./assets/Dogs/Sneeuwpret.jpg"),
-    spelen: require("../public/images/details-1-background.jpg"),
+    // spelen: require("../public/images/details-1-background.jpg"),
 }
 const imagesRow = {
     daan: require("./assets/Dogs/Daan.jpg"),
