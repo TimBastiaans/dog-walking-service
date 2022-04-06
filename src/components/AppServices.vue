@@ -17,7 +17,8 @@
               <img class="img-fluid" :src=pricePicture1 alt="alternative">
             </div>
             <div class="card-body">
-              <h5 class="card-title">{{ entryOption }}</h5>
+              <h5 class="card-title show-on-desktop">{{ entryOption }}</h5>
+              <h3 class="card-title show-on-mobile">{{ entryOption }}</h3>
               <p class="price"><span>Gratis</span></p>
             </div>
             <div class="button-container">
@@ -144,6 +145,12 @@ export default {
     margin-bottom: 1.5rem;
     font-size: larger;
   }
+}
+@media (min-width: 980px){
+  .show-on-mobile { display: none !important; }
+}
+@media (max-width: 980px){
+  .show-on-desktop { display: none !important; }
 }
  .cards-2 {
    padding: 1.25rem 1.5rem 1.125rem 1.5rem;
