@@ -38,7 +38,7 @@
       <div class="item">
         <div id="headingthree">
                         <span class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">4</span><span class="accordion-title">Intakegesprek en eerste wandeling </span>
+                            <span class="circle-numbering">3</span><span class="accordion-title">Intakegesprek en eerste wandeling </span>
                         </span>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
@@ -51,7 +51,7 @@
       <div class="item">
         <div id="headingFour">
                         <span class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">3</span><span class="accordion-title">Je hond word altijd thuis opgehaald</span>
+                            <span class="circle-numbering">4</span><span class="accordion-title">Je hond word altijd thuis opgehaald</span>
                         </span>
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
@@ -64,7 +64,7 @@
       <div class="item">
         <div id="headingFive">
                         <span class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">4</span><span class="accordion-title">foto's van de avonturen van uw hond</span>
+                            <span class="circle-numbering">5</span><span class="accordion-title">foto's van de avonturen van uw hond</span>
                         </span>
         </div>
         <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">

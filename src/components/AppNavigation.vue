@@ -16,24 +16,24 @@
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+          <a class="nav-link page-scroll" href="#header">home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#intro">INTRO</a>
+          <a class="nav-link page-scroll" href="#intro">Introductie</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#services">SERVICES</a>
+          <a class="nav-link page-scroll" href="#projects">Honden</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#callMe">CALL ME</a>
+          <a class="nav-link page-scroll" href="#services">Tarieven</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link page-scroll" href="#projects">PROJECTS</a>
+          <a class="nav-link page-scroll" href="#contact">Contact</a>
         </li>
 
         <!-- Dropdown Menu -->
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+          <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Documenten</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" :href=documents.terms target="_blank"><span class="item-text">ALGEMENE VOORWAARDEN</span></a>
             <div class="dropdown-items-divide-hr"></div>
@@ -43,10 +43,6 @@
           </div>
         </li>
         <!-- end of dropdown menu -->
-
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#contact">CONTACT</a>
-        </li>
       </ul>
       <span class="nav-item social-icons">
                 <span class="fa-stack">
