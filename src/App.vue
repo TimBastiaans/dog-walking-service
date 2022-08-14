@@ -3,7 +3,6 @@
     <AppNavigation />
     <AppHeader />
     <AppIntro />
-    <PhotoRow />
     <AppProjects />
     <AppServices />
     <AppDetails />
@@ -33,7 +32,6 @@ import AppFooter from "./components/AppFooter";
 import AppProjects from "./components/AppProjects";
 import AppDetails from "./components/AppDetails";
 // import AppDetails2 from "./components/AppDetails2";
-
 export default {
   name: 'App',
   components: {
