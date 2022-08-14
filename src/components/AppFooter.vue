@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="text-container about">
-            <h4>Paar worden over Marley</h4>
+            <h4>Informatie over Marley</h4>
             <p class="white">{{footerText}}</p>
           </div> <!-- end of text-container -->
         </div> <!-- end of col -->

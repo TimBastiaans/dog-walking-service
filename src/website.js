@@ -5,7 +5,7 @@ const header = {
     subTitle: "HONDENUITLAATGEBIED ROND APPELDOORN",
     text: "Omdat jouw hond het allerbeste verdient",
     info: "Marley is de hondenuitlaatservice voor u als u zoekt naar professionaliteit, kwaliteit en betrouwbaarheid." +
-        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond.",
+        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij u een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond.",
     buttonText: "Werkwijze"
 };
 
@@ -17,7 +17,7 @@ const intro = {
 }
 
 const contact = {
-    title: "Alle manieren om met mij in contact te komen",
+    title: "Manieren om met mij in contact te komen",
     subTitle: "Tot 20.00 uur ben ik altijd telefonisch of op whatsapp bereikbaar maar mailen is altijd mogelijk.",
 }
 
@@ -48,7 +48,7 @@ const details2 = {
     hikeText: "een wandeling van zeker een uur in hondenbos Julianatoren,  Het Leesten, hondenbos in Emst," +
         " hondenbos de Sprengen, of op Bussloo vindt u uw hond aan het eind van de dag voldaan weer thuis.",
     footerText: "Marley is de hondenuitlaatservice voor u als u zoekt naar professionaliteit, kwaliteit en betrouwbaarheid." +
-        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond."
+        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij u een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond."
 }
 
 
@@ -63,7 +63,7 @@ const socials = {
 
 const dogs = {
     title: "HONDEN!",
-    text: "Een Aantal Wandelaars"
+    text: "Een aantal wandelaars stellen zich voor"
 }
 
 const images = {
