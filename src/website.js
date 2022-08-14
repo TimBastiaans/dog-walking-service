@@ -5,7 +5,8 @@ const header = {
     subTitle: "HONDENUITLAATGEBIED ROND APPELDOORN",
     text: "Omdat jouw hond het allerbeste verdient",
     info: "Marley is de hondenuitlaatservice voor u als u zoekt naar professionaliteit, kwaliteit en betrouwbaarheid." +
-        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond."
+        " Voor iedere hond in Apeldoorn en directe omgeving bieden wij een passende service die bijdraagt aan een gezonde, evenwichtige en tevreden hond.",
+    buttonText: "Werkwijze"
 };
 
 const intro = {
@@ -106,7 +107,8 @@ const dogImages = {
 }
 
 const videos = {
-    intro: require("./assets/Video/dogs-walking.mp4")
+    intro: require("./assets/Video/dogs-walking.mp4"),
+    mobile: require("./assets/Video/dogs-walking-mobile.mp4")
 }
 
 const documents = {
