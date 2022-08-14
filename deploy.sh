@@ -17,7 +17,11 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
+<<<<<<< HEAD
+# git push -f git@github.com:TimBastiaans/TimBastiaans.github.io.git main
+=======
  git push -f git@github.com:TimBastiaans/TimBastiaans.github.io.git main
+>>>>>>> origin/master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:TimBastiaans/dog-walking-service.git main:gh-pages
