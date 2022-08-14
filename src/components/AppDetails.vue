@@ -6,7 +6,7 @@
 
     <!-- Accordion -->
     <div class="accordion-container" id="accordionOne">
-      <h2>Waarom Hondeuitlaatservice Marley?</h2>
+      <h2>Waarom hondenuitlaatservice Marley?</h2>
       <div class="item">
         <div id="headingOne">
                         <span data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" role="button">
@@ -51,7 +51,7 @@
       <div class="item">
         <div id="headingFour">
                         <span class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">4</span><span class="accordion-title">Je hond word altijd thuis opgehaald</span>
+                            <span class="circle-numbering">4</span><span class="accordion-title">Je hond wordt altijd thuis opgehaald</span>
                         </span>
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
@@ -64,7 +64,7 @@
       <div class="item">
         <div id="headingFive">
                         <span class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree" role="button">
-                            <span class="circle-numbering">5</span><span class="accordion-title">foto's van de avonturen van uw hond</span>
+                            <span class="circle-numbering">5</span><span class="accordion-title">Foto's van de avonturen van uw hond</span>
                         </span>
         </div>
         <div id="collapseFive" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
