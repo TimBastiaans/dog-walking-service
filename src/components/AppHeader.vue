@@ -10,9 +10,9 @@
             <div class="col-lg-12">
               <div class="text-container">
                 <h1>{{ title }}</h1>
-                <h5 class="p-heading p-intro">{{ subTitle }} </h5>
+                <h5 class="p-heading p-intro">{{ subTitle }}</h5>
                 <h5 class="p-heading p-large">{{ text }} </h5>
-                <a class="btn-solid-lg page-scroll" href="#intro">Werkwijze</a>
+                <a class="btn-solid-lg page-scroll" href="#details" v-smooth-scroll>Werkwijze</a>
               </div>
             </div> <!-- end of col -->
           </div> <!-- end of row -->

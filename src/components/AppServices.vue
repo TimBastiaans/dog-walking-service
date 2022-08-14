@@ -21,7 +21,7 @@
               <p class="price"><span>Gratis</span></p>
             </div>
             <div class="button-container">
-              <a class="btn-solid-reg page-scroll" href="#callMe">DETAILS</a>
+              <a class="btn-solid-reg page-scroll" href="#details" v-smooth-scroll>DETAILS</a>
             </div> <!-- end of button-container -->
           </div>
           <!-- end of card -->
@@ -88,7 +88,7 @@
       </div> <!-- end of row -->
     </div> <!-- end of container -->
     <div class="button-container">
-      <a class="btn-solid-reg btn-lg page-scroll" href="#contact">
+      <a class="btn-solid-reg btn-lg page-scroll" href="#contact" v-smooth-scroll>
       <div id="createBtn">Neem contact op voor intresse</div>
       </a>
     </div>
