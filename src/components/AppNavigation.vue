@@ -14,37 +14,36 @@
     <!-- end of mobile menu toggle button -->
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#header">home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#intro">Introductie</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#projects">Honden</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#services">Tarieven</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link page-scroll" href="#contact">Contact</a>
-        </li>
-
-        <!-- Dropdown Menu -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">Documenten</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" :href=documents.terms target="_blank"><span class="item-text">ALGEMENE VOORWAARDEN</span></a>
-            <div class="dropdown-items-divide-hr"></div>
-            <a class="dropdown-item" :href=documents.registration target="_blank"><span class="item-text">INSCHRIJFFORMULIER</span></a>
-            <div class="dropdown-items-divide-hr"></div>
-            <a class="dropdown-item" :href=documents.keyContract target="_blank"><span class="item-text">SLEUTELCONTRACT</span></a>
-          </div>
-        </li>
-        <!-- end of dropdown menu -->
-      </ul>
-      <span class="nav-item social-icons">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#header" v-smooth-scroll>HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#intro" v-smooth-scroll>INTRO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#projects" v-smooth-scroll>HONDEN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#services" v-smooth-scroll>SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link page-scroll" href="#contact" v-smooth-scroll>CONTACT</a>
+            </li>
+            <!-- Dropdown Menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">DOCS</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" :href=documents.terms target="_blank"><span class="item-text">ALGEMENE VOORWAARDEN</span></a>
+                    <div class="dropdown-items-divide-hr"></div>
+                    <a class="dropdown-item" :href=documents.registration target="_blank"><span class="item-text">INSCHRIJFFORMULIER</span></a>
+                    <div class="dropdown-items-divide-hr"></div>
+                    <a class="dropdown-item" :href=documents.keyContract target="_blank"><span class="item-text">SLEUTELCONTRACT</span></a>
+                </div>
+            </li>
+            <!-- end of dropdown menu -->
+        </ul>
+        <span class="nav-item social-icons">
                 <span class="fa-stack">
                     <a :href=socials.facebook>
                         <span class="hexagon"></span>
@@ -57,7 +56,7 @@
                         <i class="fab fa-linkedin fa-stack-1x"></i>
                     </a>
                 </span>
-            </span>
+        </span>
     </div>
   </nav> <!-- end of navbar -->
   <!-- end of navbar -->
