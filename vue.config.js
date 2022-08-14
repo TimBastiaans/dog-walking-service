@@ -1,5 +1,7 @@
 // vue.config.js file to be placed in the root of your repository
 
 module.exports = {
-    publicPath: '/dog-walking-service/'
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/dog-walking-service/'
+        : '/'
 }
